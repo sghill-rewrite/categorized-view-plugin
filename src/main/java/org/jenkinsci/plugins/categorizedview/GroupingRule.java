@@ -1,11 +1,11 @@
 package org.jenkinsci.plugins.categorizedview;
 
-import org.apache.commons.lang.StringUtils;
 import org.kohsuke.stapler.DataBoundConstructor;
 
 import hudson.Extension;
 import hudson.model.Descriptor;
 import hudson.model.TopLevelItem;
+import org.apache.commons.lang.StringUtils;
 
 public class GroupingRule extends CategorizationCriteria
 {

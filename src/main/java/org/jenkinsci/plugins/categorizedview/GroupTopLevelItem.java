@@ -8,8 +8,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import org.acegisecurity.AccessDeniedException;
-
 import hudson.model.BallColor;
 import hudson.model.HealthReport;
 import hudson.model.Item;
@@ -23,6 +21,7 @@ import hudson.search.SearchIndex;
 import hudson.security.ACL;
 import hudson.security.Permission;
 import jenkins.model.Jenkins;
+import org.acegisecurity.AccessDeniedException;
 
 @SuppressWarnings("rawtypes")
 public class GroupTopLevelItem implements TopLevelItem {

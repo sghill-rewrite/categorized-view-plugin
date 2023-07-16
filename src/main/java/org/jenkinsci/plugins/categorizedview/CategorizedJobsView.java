@@ -18,11 +18,11 @@ import org.kohsuke.stapler.StaplerRequest;
 import hudson.Extension;
 import hudson.Util;
 import hudson.model.Descriptor;
+import hudson.model.Descriptor.FormException;
 import hudson.model.ListView;
 import hudson.model.TopLevelItem;
 import hudson.model.ViewDescriptor;
 import hudson.model.ViewGroup;
-import hudson.model.Descriptor.FormException;
 import hudson.util.DescribableList;
 import hudson.util.FormValidation;
 

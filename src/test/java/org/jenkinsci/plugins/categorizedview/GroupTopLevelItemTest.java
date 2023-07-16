@@ -9,9 +9,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-import org.jenkinsci.plugins.categorizedview.GroupTopLevelItem.GetBuild;
-import org.junit.Test;
-
 import hudson.model.BallColor;
 import hudson.model.FreeStyleBuild;
 import hudson.model.FreeStyleProject;
@@ -19,6 +16,8 @@ import hudson.model.HealthReport;
 import hudson.model.Job;
 import hudson.model.Run;
 import hudson.model.TopLevelItem;
+import org.jenkinsci.plugins.categorizedview.GroupTopLevelItem.GetBuild;
+import org.junit.Test;
 
 public class GroupTopLevelItemTest {
 	GroupTopLevelItem subject = new GroupTopLevelItem("", ".*ignore-me.*");

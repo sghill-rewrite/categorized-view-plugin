@@ -10,9 +10,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import org.junit.Test;
-
 import hudson.model.TopLevelItem;
+import org.junit.Test;
 
 public class CategorizedItemsBuilderTest {
 
